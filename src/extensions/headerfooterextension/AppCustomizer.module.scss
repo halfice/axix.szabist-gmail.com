@@ -1,0 +1,55 @@
+@import '~@microsoft/sp-office-ui-fabric-core/dist/sass/SPFabricCore.scss';
+
+  .app {
+    .top {
+        height:60px;
+        text-align:center;
+        line-height:2.5;
+        font-weight:bold;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: $ms-color-themePrimary;
+        color: $ms-color-white;
+        background-image: url('https://azizi021.sharepoint.com/:i:/r/Style%20Library/myfile.gif');
+
+    }
+
+    .bottom {
+        
+        text-align:center;
+        line-height:2.5;
+        font-weight:bold;
+        align-items: center;
+        justify-content: center;
+        background-color: $ms-color-themePrimary;
+        color: $ms-color-white;
+        position: absolute;
+        width:100%;
+        display: block;
+    }
+    .innerdiv{
+      display: block;
+    float: left;
+    border: solid 2px;
+    border-radius: 16px;
+    padding: 11px;
+    margin: 11px;
+    background-color: white;
+    color: gray;
+    }
+
+
+    .innerdiv:hover {
+      display: block;
+    float: left;
+    border: solid 2px;
+    border-radius: 16px;
+    padding: 11px;
+    margin: 11px;
+    background-color: white;
+    color: white;
+    background-color:lightseagreen;
+    cursor: pointer;
+    }
+  }
