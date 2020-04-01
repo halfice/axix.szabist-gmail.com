@@ -145,17 +145,7 @@ export default class HeaderfooterextensionApplicationCustomizer
               ${escape(
                 bottomString
               )}
-             
-   <hr>
-  <div>
-  <div class="${styles.innerdiv}" > <h1> SharePoint Solution </h1></div> 
-  <div class="${styles.innerdiv}"> <h1> Quality Work </h> </div> 
-  <div class="${styles.innerdiv}" >  <h1> SharePoint Migraiton </h> </div> 
-  <div class="${styles.innerdiv}"> <h1> Machine Learning </h> </div> 
-  <div class="${styles.innerdiv}"> <h1> PowerShell Soltion </h> </div> 
-  </div>
-   </div><hr>
-            
+  
            
           </div>`;
         }

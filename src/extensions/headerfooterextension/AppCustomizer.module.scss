@@ -2,7 +2,7 @@
 
   .app {
     .top {
-        height:60px;
+        height:30px;
         text-align:center;
         line-height:2.5;
         font-weight:bold;
@@ -12,7 +12,7 @@
         background-color: $ms-color-themePrimary;
         color: $ms-color-white;
         background-image: url('https://azizi021.sharepoint.com/:i:/r/Style%20Library/myfile.gif');
-
+background-repeat: round;
     }
 
     .bottom {
@@ -33,8 +33,8 @@
     float: left;
     border: solid 2px;
     border-radius: 16px;
-    padding: 11px;
-    margin: 11px;
+    padding: 3px;
+    margin: 3px;
     background-color: white;
     color: gray;
     }
@@ -45,8 +45,8 @@
     float: left;
     border: solid 2px;
     border-radius: 16px;
-    padding: 11px;
-    margin: 11px;
+    padding: 3px;
+    margin: 3px;
     background-color: white;
     color: white;
     background-color:lightseagreen;
