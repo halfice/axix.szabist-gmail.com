@@ -1,5 +1,12 @@
 @import '~@microsoft/sp-office-ui-fabric-core/dist/sass/SPFabricCore.scss';
 
+
+.logos{
+vertical-align: middle;
+text-align: center;
+padding-top: 2px;
+
+}
   .app {
     .top {
         height:30px;
@@ -9,26 +16,24 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        background-color: $ms-color-themePrimary;
-        color: $ms-color-white;
-        background-image: url('https://azizi021.sharepoint.com/:i:/r/Style%20Library/myfile.gif');
+        background-color: #5058dd;
+        color:white;
 background-repeat: round;
     }
 
     .bottom {
-        
         text-align:center;
-        line-height:2.5;
+        line-height:1.5;
         font-weight:bold;
         align-items: center;
         justify-content: center;
-        background-color: $ms-color-themePrimary;
         color: $ms-color-white;
         width:100%;
         position: fixed;
         left: 0;
         bottom: 0;
         width: 100%;
+        color:black;
 
 
 
@@ -46,6 +51,8 @@ background-repeat: round;
    
 
     }
+
+    
 
 
     .innerdiv:hover {
